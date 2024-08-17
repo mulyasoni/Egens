@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.first-con {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 30px;
+    /* border: 2px solid ; */
+    /* padding: 20px; */
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    width: 40%;
+    padding-top: 12px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-fc {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* border: 2px solid lightgreen; */
+}
+
+.left-mfc {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 2px solid yellow; */
+    padding-left: 150px;
+}
+
+.btn {
+    width: 150px !important;
+    /* he15ht: 30px; */
+    background-color: rgb(62, 6, 80) !important;
+    color: white !important;
+    border-radius: 25px !important;
+}
+
+.right-mfc {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+
+/* ------------{---------------------------------------------------------------------------------------- */
+
+.second-con {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* border: 2px solid red; */
+}
+
+.card-sc {
+    /* border: 2px solid green; */
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-card-sc {
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 60px; */
+}
+
+.bottom-card-sc {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.third-con {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    background-color: rgba(232, 244, 248, 0.5);
+}
+
+.left-tc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    gap: 20px;
+}
+
+.right-tc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+/* --------------------------------------------------------- */
+
+.fourth-con{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-fc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.right-fc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bottom-rfc{
+    width: 100%;
+    display: flex;
+}
+
+/* --------------------------------------------------------------- */
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.top-f{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50, 12, 94);
+    color: white;
+    /* border-radius: 20px; */
+    /* margin-right: -250px; */
+}
+
+.left-tf{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.right-tf{
+    width: 40%;
+    padding-left: 100px;
+}
